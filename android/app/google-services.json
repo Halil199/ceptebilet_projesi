@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "709512687338",
+    "project_id": "ceptebilet-projesi",
+    "storage_bucket": "ceptebilet-projesi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709512687338:android:ec951d8a7231c2cee1b193",
+        "android_client_info": {
+          "package_name": "com.example.ceptebilet_projesi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASsRPIEDnMWiu9s1Ro1rf47N2i1slCZiY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
