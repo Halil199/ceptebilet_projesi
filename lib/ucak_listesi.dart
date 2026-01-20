@@ -177,7 +177,7 @@ class UcakListesiScreen extends StatelessWidget {
                 ),
                 onPressed: () {
                   ScaffoldMessenger.of(context).showSnackBar(
-                    const SnackBar(content: Text("Uçak koltuk seçimi özelliği yakında eklenecek! ✈️"))
+                    const SnackBar(content: Text("Uçak koltuk seçimi özelliği yakında eklenecek!"))
                   );
                 }, 
                 child: const Text("SEÇ VE DEVAM ET"),

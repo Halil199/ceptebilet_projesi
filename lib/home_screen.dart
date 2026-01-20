@@ -269,7 +269,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
                           // Otobüs mü Uçak mı?
                           if (otobusSecili == true) {
-                            // Otobüs seçiliyse -> Otobüs Listesine git
+                            // Otobüs seçiliyse 
                             Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -281,7 +281,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               ),
                             );
                           } else {
-                            // Uçak seçiliyse -> Uçak Listesine git
+                            // Uçak seçiliyse 
                             Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -356,7 +356,6 @@ class _HomeScreenState extends State<HomeScreen> {
       return;
     }
 
-    // Havalimanı Filtresi
     List<String> gosterilecekListe = [];
 
     if (otobusSecili) {
