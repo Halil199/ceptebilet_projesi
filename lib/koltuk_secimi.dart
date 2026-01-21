@@ -47,14 +47,14 @@ class _KoltukSecimiScreenState extends State<KoltukSecimiScreen> {
               children: [
                 Column(
                   children: const [
-                    Icon(Icons.door_sliding, size: 40, color: Colors.grey),
-                    Text("Kapı", style: TextStyle(fontSize: 10)),
+                    Icon(Icons.circle_outlined, size: 40, color: Colors.grey),
+                    Text("Şoför", style: TextStyle(fontSize: 10)),
                   ],
                 ),
                 Column(
                   children: const [
-                    Icon(Icons.circle_outlined, size: 40, color: Colors.grey),
-                    Text("Şoför", style: TextStyle(fontSize: 10)),
+                    Icon(Icons.door_sliding, size: 40, color: Colors.grey),
+                    Text("Kapı", style: TextStyle(fontSize: 10)),
                   ],
                 ),
               ],
