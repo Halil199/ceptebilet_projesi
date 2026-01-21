@@ -547,19 +547,13 @@ class _HomeScreenState extends State<HomeScreen> {
       await batch.commit();
     }
 
-    print("✅ 300 Sefer başarıyla eklendi.");
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text("✅ İşlem Tamam!"),
-        backgroundColor: Colors.green,
-      ),
-    );
+    
   }
 
   Future<void> sahteUcakSeferleriUret() async {
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
-        content: Text(" Veritabanı ile uyumlu uçak seferleri üretiliyor..."),
+        content: Text(" Veritabanı ile  uçak seferleri üretiliyor..."),
       ),
     );
 
@@ -647,14 +641,5 @@ class _HomeScreenState extends State<HomeScreen> {
       }
     }
 
-    if (sayac > 0) await batch.commit();
-
-    print("✅ Uyumlu uçak veritabanı hazır!");
-    ScaffoldMessenger.of(context).showSnackBar(
-      const SnackBar(
-        content: Text("✅ Uçak seferleri eklendi!"),
-        backgroundColor: Colors.green,
-      ),
-    );
   }
 }
